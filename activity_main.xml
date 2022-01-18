@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout">
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentFrame"/>
+    <ListView
+        android:id="@+id/listOfOptions"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/transparent"
+        android:background="#ffffff"/>
+        -->
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/buttons"
+    android:scrollbars="vertical"
+    />
+</androidx.drawerlayout.widget.DrawerLayout>
